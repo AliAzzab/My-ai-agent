@@ -1,10 +1,9 @@
 # streamlit_app.py
 import streamlit as st
 from agent import ask_llm
-from .search_tool import search_web
+from search_tool import search_web
 from summarize_tool import summarize_text
 from search_tool import send_email
-from launcher_tool import open_file_by_name
 
 # Page configuration with modern styling
 st.set_page_config(
